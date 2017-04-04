@@ -17,7 +17,7 @@
 ## as a relay, and not make any local application connections yourself.
 #SOCKSPort 9050 # Default: Bind to localhost:9050 for local connections.
 #SOCKSPort 192.168.0.1:9100 # Bind to this address:port too.
-# Added: accept all connections
+## Added: accept all connections
 SOCKSPort 0.0.0.0:9050
 
 ## Entry policies to allow/deny SOCKS requests based on IP address.
