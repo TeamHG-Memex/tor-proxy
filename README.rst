@@ -7,3 +7,9 @@ but has a few tweaks:
 
 * alpine version pinned, tor installed from default package
 * logging is less verbose
+
+Socks proxy is exposed on port 9050, so a minimal command to run is::
+
+    docker run -p 9050:9050 hyperiongray/tor-proxy
+ 
+License is MIT.
