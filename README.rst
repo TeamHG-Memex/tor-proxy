@@ -16,6 +16,6 @@ If you want to expose it as an http/https proxy, use
 `jess/privoxy <https://github.com/jessfraz/dockerfiles/blob/master/privoxy/Dockerfile>`_
 or `hyperiongray/privoxy <https://github.com/TeamHG-Memex/privoxy>`_::
 
-    docker run --rm --name privoxy --link torproxy -p 8118:8118 hyperiongray/privoxy:0.1.0
+    docker run --rm --name privoxy --link torproxy -p 8118:8118 hyperiongray/privoxy
 
 License is MIT.
